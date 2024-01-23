@@ -1,0 +1,36 @@
+#cart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .quantity-btn, .delete-btn, .like-btn {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .like-btn {
+    color: #555;
+  }
+  
+  .liked {
+    color: red;
+  }
+  
+  #cart-total {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
